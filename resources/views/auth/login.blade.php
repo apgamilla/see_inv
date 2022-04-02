@@ -106,7 +106,7 @@
                             "phone": $("#phone").val()
                         },
                         success: function (html) {
-                           //location.reload();
+//                           location.reload();
                         }, error: function (n) {
                         }
                     });
