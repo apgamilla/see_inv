@@ -54,7 +54,7 @@
                                     <td class="name">{{ $item->name }}</td>
                                     <td class="name">
                                         <div class="avatar avatar-xl">
-                                            <img src="{{ URL::to('/images/'. $item->avatar) }}" alt="{{ $item->avatar }}">
+                                            <img src="{{ URL::to('assets/images/'. $item->avatar) }}" alt="{{ $item->avatar }}">
                                         </div>
                                     </td>
                                     <td class="email">{{ $item->email }}</td>
