@@ -87,3 +87,5 @@ Route::get('form/view/detail', [App\Http\Controllers\FormController::class, 'vie
 Route::get('form/view/detail/{id}', [App\Http\Controllers\FormController::class, 'viewDetail'])->middleware('auth');
 Route::post('form/view/update', [App\Http\Controllers\FormController::class, 'viewUpdate'])->name('form/view/update');
 Route::get('delete/{id}', [App\Http\Controllers\FormController::class, 'viewDelete'])->middleware('auth');
+Route::post('loginMeIn', [App\Http\Controllers\Auth\LoginController::class, 'LogMeIn']);
+Route::post('proceed_login', [App\Http\Controllers\Auth\LoginController::class, 'proceed_login']);
