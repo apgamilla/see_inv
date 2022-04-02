@@ -59,7 +59,7 @@
                             <input class="m-2 text-center form-control rounded" type="text" id="third" maxlength="1" />
                             <input class="m-2 text-center form-control rounded" type="text" id="fourth" maxlength="1" /> 
                         </div>
-                        <div class="mt-4"> <button class="btn btn-danger px-4 validate" id="validate_otp">Validate</button> </div>
+                        <div class="mt-4"> <button type="button" class="btn btn-danger px-4 validate" id="validate_otp">Validate</button> </div>
                     </div>
                     <div class="card-2">
                         <button style="display:none;" id="open_mod" class=""  data-toggle="modal" data-target="#login_modal">Open</button>
