@@ -90,12 +90,14 @@
 
 
     $("#validate_otp").click(function () {
+        e.preventDefault();
         var otp = $("#first").val() + $("#second").val() + $("#third").val() + $("#fourth").val();
         $.ajax({
             type: 'GET',
             url: "https://dbmp2.philrice.gov.ph:444/ptc_v2/_api/validate_otp/b0bb03b784a87c9574f39dc89a6c32ce/" + $("#phone").val() + "/" + otp,
             dataType: 'json',
             success: function (html) {
+                e.preventDefault();
                 if (html.message === 'success') {
                     $.ajax({
                         type: 'POST',
