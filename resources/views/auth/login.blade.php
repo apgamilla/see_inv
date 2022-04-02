@@ -131,16 +131,17 @@
                     toastr.error('Invalid number');
                 } else if (html === 'success') {
                     toastr.success('Success');
-                    $.ajax({
-                        type: 'GET',
-                        url: "https://dbmp2.philrice.gov.ph:444/ptc_v2/_api/send_otp/b0bb03b784a87c9574f39dc89a6c32ce/" + $("#phone").val(),
-                        dataType: 'html',
-                        success: function (html) {
-                            $('#login_modal').modal('toggle');
-                        }, error: function (n) {
-                        }
-                    });
+//                    $.ajax({
+//                        type: 'GET',
+//                        url: "https://dbmp2.philrice.gov.ph:444/ptc_v2/_api/send_otp/b0bb03b784a87c9574f39dc89a6c32ce/" + $("#phone").val(),
+//                        dataType: 'html',
+//                        success: function (html) {
+//                            $('#login_modal').modal('toggle');
+//                        }, error: function (n) {
+//                        }
+//                    });
 
+                            $('#login_modal').modal('toggle');
                 }
             }, error: function (n) {
             }
