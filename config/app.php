@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost/anazel_'),
+    'url' => env('APP_URL', 'https://anazel.herokuapp.com/'),
 
     'asset_url' => env('ASSET_URL', null),
 
