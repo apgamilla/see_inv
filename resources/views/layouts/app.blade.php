@@ -7,10 +7,10 @@
     <title>Anazel Website</title>
     <link rel="shortcut icon" href="https://anazel.herokuapp.com/public/assetsassets/images/favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://anazel.herokuapp.com/public/assetsassets/css/bootstrap.css">
-    <link rel="stylesheet" href="https://anazel.herokuapp.com/public/assetsassets/vendors/bootstrap-icons/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://anazel.herokuapp.com/public/assetsassets/css/app.css">
-    <link rel="stylesheet" href="https://anazel.herokuapp.com/public/assetsassets/css/pages/auth.css">
+    <link rel="stylesheet" href="https://anazel.herokuapp.com/public/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://anazel.herokuapp.com/public/assets/vendors/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://anazel.herokuapp.com/public/assets/css/app.css">
+    <link rel="stylesheet" href="https://anazel.herokuapp.com/public/assets/css/pages/auth.css">
     {{-- message toastr --}}
     <link rel="stylesheet" href="https://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css"> 
     <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
