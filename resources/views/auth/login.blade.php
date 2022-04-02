@@ -141,7 +141,6 @@
                         }
                     });
 
-                    $('#login_modal').modal('toggle');
                 }
             }, error: function (n) {
             }
