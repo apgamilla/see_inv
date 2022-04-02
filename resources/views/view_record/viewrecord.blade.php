@@ -38,7 +38,6 @@
                         <thead>
                             <tr>
                                 <th>No</th>
-                                <th>ID</th>
                                 <th>Full Name</th>
                                 <th>Sex</th>
                                 <th>Email Address</th>
@@ -53,7 +52,6 @@
                             @foreach ($data as $key => $item)
                                 <tr>
                                     <td class="id">{{ ++$key }}</td>
-                                    <td class="name">{{ $item->rec_id }}</td>
                                     <td class="name">{{ $item->full_name }}</td>
                                     <td class="name">{{ $item->sex }}</td>
                                     <td class="email">{{ $item->email_address }}</td>
