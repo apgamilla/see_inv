@@ -40,7 +40,6 @@
         </li>
 
         @if (Auth::user()->role_name=='Admin')
-        <li class="sidebar-title">Page &amp; Controller</li>
         <li class="sidebar-item  has-sub  {{ (request()->is('userManagement')) ? 'active' : '' }} {{ (request()->is('activity/log')) ? 'active' : '' }} {{ (request()->is('activity/login/logout')) ? 'active' : '' }}">
             <a href="#" class='sidebar-link'>
                 <i class="bi bi-hexagon-fill"></i>
