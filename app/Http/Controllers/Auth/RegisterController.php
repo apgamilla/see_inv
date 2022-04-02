@@ -47,6 +47,7 @@ class RegisterController extends Controller
             'email'     => $request->email,
             'phone_number'     => $request->phone_number,
             'role_name' => $request->role_name,
+            'status' => "Active",
             'password'  => Hash::make($request->password),
         ]);
         Toastr::success('Create new account successfully :)','Success');
