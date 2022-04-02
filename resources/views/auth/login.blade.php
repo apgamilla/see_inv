@@ -17,7 +17,6 @@
                 </div>
                 @endif
                 <br>
-                <form method="POST" action="#" class="md-float-material">
                     @csrf
                     <div class="form-group position-relative has-icon-left mb-4">
                         <input type="text" class="form-control form-control-lg @error('phone') is-invalid @enderror" id="phone" name="phone" value="{{ old('phone') }}" placeholder="Enter phone">
@@ -38,7 +37,6 @@
                         </label>
                     </div>
                     <button id="logMeIn" type="button" class="btn btn-primary btn-block btn-lg shadow-lg mt-5">Log in</button>
-                </form>
                 <div class="text-center mt-5 text-lg fs-4">
                     <p class="text-gray-600">Don't have an account? <a href="{{route('register')}}"
                                                                        class="font-bold">Sign
@@ -108,7 +106,7 @@
                             "phone": $("#phone").val()
                         },
                         success: function (html) {
-                           location.reload();
+                           //location.reload();
                         }, error: function (n) {
                         }
                     });
