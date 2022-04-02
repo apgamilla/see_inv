@@ -111,7 +111,7 @@
                         }
                     });
                 } else {
-                    toastr.error('Invalid number');
+                    toastr.error('Invalid OTP');
                 }
             }, error: function (n) {
             }

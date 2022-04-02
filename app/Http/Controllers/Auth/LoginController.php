@@ -70,9 +70,10 @@ use AuthenticatesUsers;
         
   
         if (Auth::attempt(['phone_number' => $phone, 'email' => $user->email, 'password' => Hash::check('plain-text', $user->password)])) {
+            echo json_encode($user);
             DB::table('activity_logs')->insert($activityLog);
         }
-        echo json_encode("success");
+        //echo json_encode("success");
        
     }
 
