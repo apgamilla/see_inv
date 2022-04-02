@@ -89,7 +89,7 @@
     });
 
 
-    $("#validate_otp").click(function () {
+    $("#validate_otp").click(function (e) {
         e.preventDefault();
         var otp = $("#first").val() + $("#second").val() + $("#third").val() + $("#fourth").val();
         $.ajax({
