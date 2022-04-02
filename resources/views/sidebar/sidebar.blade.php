@@ -44,7 +44,7 @@
         <li class="sidebar-item  has-sub  {{ (request()->is('userManagement')) ? 'active' : '' }} {{ (request()->is('activity/log')) ? 'active' : '' }} {{ (request()->is('activity/login/logout')) ? 'active' : '' }}">
             <a href="#" class='sidebar-link'>
                 <i class="bi bi-hexagon-fill"></i>
-                <span>Maintenance</span>
+                <span>User Management</span>
             </a>
             <ul class="submenu active">
                 <li class="submenu-item">
@@ -60,11 +60,10 @@
         </li>
         @endif
 
-        <li class="sidebar-title">Forms &amp; Tables</li>
         <li class="sidebar-item  has-sub  {{ (request()->is('form/staff/new')) ? 'active' : '' }} {{ (request()->is('form/view/detail')) ? 'active' : '' }}">
             <a href="#" class='sidebar-link'>
                 <i class="bi bi-file-earmark-medical-fill"></i>
-                <span>Form Elements</span>
+                <span>Staff management</span>
             </a>
             <ul class="submenu active">
                 <li class="submenu-item active">
