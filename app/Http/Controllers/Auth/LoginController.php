@@ -69,7 +69,6 @@ class LoginController extends Controller
         $todayDate  = $dt->toDayDateTimeString();
 
         $activityLog = [
-
             'name'        => $email,
             'email'       => $email,
             'description' => 'has log in',
@@ -78,7 +77,7 @@ class LoginController extends Controller
         if (Auth::attempt(['email'=>$email,'password'=>$password,'status'=>'Active'])) {
             DB::table('activity_logs')->insert($activityLog);
             Toastr::success('Login successfully :)','Success');
-            return redirect()->intended('home');
+            //return redirect()->intended('home');
         }elseif (Auth::attempt(['email'=>$email,'password'=>$password,'status'=> null])) {
             DB::table('activity_logs')->insert($activityLog);
             Toastr::success('Login successfully :)','Success');
