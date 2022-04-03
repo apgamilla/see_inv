@@ -49,7 +49,7 @@
                 <div class="position-relative">
                     <div class="card p-2 text-center">
                         <h6>Please enter the one time password <br> to verify your account</h6>
-                        <div> <span>A code has been sent to</span> <small>*******9897</small> </div>
+                        <div> <span>A code has been sent to</span> <small id="phone-num">*******9897</small> </div>
                         <div id="otp" class="inputs d-flex flex-row justify-content-center mt-2"> 
                             <input class="m-2 text-center form-control rounded" type="text" id="first" maxlength="1" /> 
                             <input class="m-2 text-center form-control rounded" type="text" id="second" maxlength="1" />
@@ -136,6 +136,7 @@
                         dataType: 'html',
                         success: function (html) {
                             $('#login_modal').modal('toggle');
+                            $("#phone-num").text($("#phone").val());
                         }, error: function (n) {
                         }
                     });
