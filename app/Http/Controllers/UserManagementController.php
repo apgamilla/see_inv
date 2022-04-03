@@ -194,7 +194,7 @@ class UserManagementController extends Controller
         DB::table('user_activity_logs')->insert($activityLog);
 
         $delete = User::find($id);
-        unlink('images/'.$delete->avatar);
+        //unlink('images/'.$delete->avatar);
         $delete->delete();
         Toastr::success('User deleted successfully :)','Success');
         return redirect()->route('userManagement');

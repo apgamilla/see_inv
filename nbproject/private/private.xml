@@ -3,8 +3,21 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/see_inv/resources/views/layouts/master.blade.php</file>
-            <file>file:/C:/xampp/htdocs/see_inv/resources/views/layouts/app.blade.php</file>
+            <file>file:/C:/xampp/htdocs/see_inv/resources/views/usermanagement/view_users.blade.php</file>
+            <file>file:/C:/xampp/htdocs/see_inv/routes/web.php</file>
+            <file>file:/C:/xampp/htdocs/see_inv/resources/views/usermanagement/user_control.blade.php</file>
+            <file>file:/C:/xampp/htdocs/see_inv/app/Http/Controllers/Auth/RegisterController.php</file>
+            <file>file:/C:/xampp/htdocs/see_inv/app/Models/User.php</file>
+            <file>file:/C:/xampp/htdocs/see_inv/resources/views/view_record/viewrecord.blade.php</file>
+            <file>file:/C:/xampp/htdocs/see_inv/resources/views/auth/register.blade.php</file>
+            <file>file:/C:/xampp/htdocs/see_inv/app/Http/Controllers/UserManagementController.php</file>
+            <file>file:/C:/xampp/htdocs/see_inv/resources/views/usermanagement/change_password.blade.php</file>
+            <file>file:/C:/xampp/htdocs/see_inv/resources/views/sidebar/change_password.blade.php</file>
+            <file>file:/C:/xampp/htdocs/see_inv/resources/views/view_record/viewdetail.blade.php</file>
+            <file>file:/C:/xampp/htdocs/see_inv/app/Providers/AppServiceProvider.php</file>
+            <file>file:/C:/xampp/htdocs/see_inv/resources/views/home.blade.php</file>
+            <file>file:/C:/xampp/htdocs/see_inv/resources/views/sidebar/sidebar.blade.php</file>
+            <file>file:/C:/xampp/htdocs/see_inv/.env</file>
         </group>
     </open-files>
 </project-private>
